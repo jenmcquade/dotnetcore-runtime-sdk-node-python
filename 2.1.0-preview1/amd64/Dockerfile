@@ -85,5 +85,3 @@ ENV SSL_PORT $ssl_port
 ARG serverUrls="http://*:$PORT;http://*:$SSL_PORT"
 ENV ASPNETCORE_URLS $serverUrls
 EXPOSE $port $ssl_port
-
-CMD dotnet help
