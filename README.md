@@ -48,7 +48,7 @@ You can also use Interactive Terminal to enter a running container
 ## ASP .NET Core (:dotnetcore-asp)
 * ASP .NET configurations from the .NET Core SDK (:dotnetcore-sdk) tagged image
 * A temp project is temporarily created during build to cache ASP .NET Core dependencies
-* `docker pull jonmcquade/dotnetcore-runtime-sdk-node-python:aspnetcore`
+* `docker pull jonmcquade/dotnetcore-runtime-sdk-node-python:dotnetcore-asp`
 
 
 
