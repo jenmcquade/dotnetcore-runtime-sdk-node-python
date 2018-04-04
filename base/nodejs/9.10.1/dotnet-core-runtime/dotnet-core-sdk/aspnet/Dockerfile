@@ -1,5 +1,5 @@
 ### ASP.NET Environment with .NET Core 
-FROM jonmcquade/dotnetcore-runtime-sdk-node-python:base-nodejs-9.10.1-dotnet-core-runtime-2.10-preview1-26216-03-dotnet-core-sdk-2.1.300-preview1-008174
+FROM jonmcquade/dotnetcore-runtime-sdk-node-python:dotnetcore-sdk
 ARG aspenv="Development"
 ENV ASPNETCORE_ENVIRONMENT $aspenv
 ARG serverUrls="http://+:80"

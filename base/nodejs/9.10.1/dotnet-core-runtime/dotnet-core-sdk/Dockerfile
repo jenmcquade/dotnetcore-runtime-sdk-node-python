@@ -1,5 +1,5 @@
 ### ASP.NET Core SDK 2.1.300-preview1-008174
-FROM jonmcquade/dotnetcore-runtime-sdk-node-python:base-nodejs-9.1.0.1-dotnet-core-runtime-2.1.0-preview1-261603
+FROM jonmcquade/dotnetcore-runtime-sdk-node-python:dotnetcore-runtime
 WORKDIR /sdk
 ENV DOTNET_SDK_VERSION 2.1.300-preview1-008174
 ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT false
