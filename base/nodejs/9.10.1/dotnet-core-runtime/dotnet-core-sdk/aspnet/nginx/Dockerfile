@@ -1,5 +1,6 @@
 ### ASP.NET Environment with .NET Core and Nginx for Reverse Proxy/HTTP2 support
 FROM jonmcquade/dotnetcore-runtime-sdk-node-python:dotnetcore-asp
+ENV NGINX_VERSION 1.13.12
 
 ##
 #
