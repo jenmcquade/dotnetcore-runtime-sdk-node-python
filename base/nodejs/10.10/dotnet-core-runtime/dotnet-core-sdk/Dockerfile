@@ -1,7 +1,7 @@
 ### ASP.NET Core SDK 2.1.401
 FROM jonmcquade/dotnetcore-runtime-sdk-node-python:dotnetcore-runtime
 # Disable the invariant mode (set in base image)
-RUN apk add --no-cache icu-libs
+RUN apk add --no-cache icu-libs libintl
 
 ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false \
     LC_ALL=en_US.UTF-8 \

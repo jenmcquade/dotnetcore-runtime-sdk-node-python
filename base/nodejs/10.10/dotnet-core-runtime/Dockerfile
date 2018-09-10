@@ -2,6 +2,7 @@
 FROM jonmcquade/dotnetcore-runtime-sdk-node-python:base
 WORKDIR /
 ARG dotNetVer="2.1.3"
+ENV DOTNET_VERSION $dotNetVer
 ENV ASPNETCORE_VERSION $dotNetVer
 RUN apk add --no-cache \	
         ca-certificates \	
